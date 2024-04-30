@@ -21,9 +21,9 @@ function TableList() {
           <Col md="12">
             <Card className="strpied-tabled-with-hover">
                             <Card.Header>
-                <Card.Title as="h4">แบบสำรวจสภาพแวดล้อม/ บริบทภายในและภายนอกของมหาวิทยาลัยศิลปากร</Card.Title>
+                <Card.Title as="h4">แบบสำรวจสภาพแวดล้อม/ บริบทภายในภายนอกของมหาวิทยาลัยศิลปากร</Card.Title>
                 <p className="card-category">
-                  ที่มีผลกระทบต่อการพัฒนาของมหาวิทยาลัยในปัจจุบันและอนาคตเพื่อทบทวนแผนกลยุทธ์ มหาวิทยาลัยศิลปากร
+                                  ฝ่ายวางแผนและพัฒนาวิเคราะห์บริบทปัจจัยภายนอกที่ส่งผลกระทบต่อมหาวิทยาลัย โดยอาจเป็นโอกาสหรือภัยคุกคามต่อมหาวิทยาลัย ตามแนวคิด PESTEL Framework จำนวน 6 ปัจจัย ซึ่งมีรายละเอียด ดังนี้
                 </p>
               </Card.Header>
             </Card>
@@ -33,10 +33,8 @@ function TableList() {
           <Col md="12">
             <Card className="strpied-tabled-with-hover">
               <Card.Header>
-                <Card.Title as="h4">แบบสำรวจสภาพแวดล้อม/ บริบทภายในและภายนอกของมหาวิทยาลัยศิลปากร</Card.Title>
-                <p className="card-category">
-                  ที่มีผลกระทบต่อการพัฒนาของมหาวิทยาลัยในปัจจุบันและอนาคตเพื่อทบทวนแผนกลยุทธ์ มหาวิทยาลัยศิลปากร
-                </p>
+                              <Card.Title as="h4">Political Factors ปัจจัยทางนโยบาย การเมือง และภาครัฐ</Card.Title>
+
               </Card.Header>
               <Card.Body className="table-full-width table-responsive px-0">
                 <Table className="table-hover table-striped">
